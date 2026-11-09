@@ -1308,7 +1308,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://rustdesk.freelife.xin".to_owned()
+    "http://rustdesk.freelife.xin:21114".to_owned()
 }
 
 #[inline]
